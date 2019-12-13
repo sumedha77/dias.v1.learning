@@ -7,6 +7,7 @@
     <groupId>com.diaspark.learning</groupId>
     <artifactId>learning</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
