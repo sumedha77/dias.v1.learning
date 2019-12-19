@@ -10,12 +10,18 @@ public class depends {
         System.out.println("This is Before Suite");
     }
 
-    @Test
+    @Test(enabled = false)
     public void test(){
         System.out.println(" This is test");
     }
-    @Test
+
+    @Test(timeOut = 500)
     public void insert() {
+        try {
+            Thread.sleep(600);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         System.out.println("inserting demo data");
     }
 
