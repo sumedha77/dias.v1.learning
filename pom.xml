@@ -8,7 +8,7 @@
     <artifactId>learning</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
+<!-- 
     <profiles>
 
 
@@ -33,7 +33,7 @@
 
     </profiles>
 
-    <dependencies>
+ -->    <dependencies>
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>

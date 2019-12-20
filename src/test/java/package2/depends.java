@@ -18,7 +18,7 @@ public class depends {
     @Test(timeOut = 500)
     public void insert() {
         try {
-            Thread.sleep(600);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
