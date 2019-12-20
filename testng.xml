@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="LearningSuite" parallel="false" preserve-order="true" verbose="1" >
+<suite name="LearningSuite" parallel="false" preserve-order="false" verbose="1" thread-count="1" >
     <test name="Smoke">
         <classes>
+<<<<<<< HEAD
             <class name="package1.TestngLearning"/>
             <class name="package2.depends"/>
             <class name="package2.TestNgNamePrint"/>
+=======
+<!--            <class name="package1.TestngLearning"/>-->
+            <class name="package1.parallel"></class>
+<!--            <class name="package2.depends"/>-->
+>>>>>>> 1ec325bda2ea5cbd1c25acac4567a119744e439f
         </classes>
     </test>
 </suite>
