@@ -15,7 +15,7 @@ public class depends {
         System.out.println(" This is test");
     }
 
-    @Test(timeOut = 500)
+    @Test(groups = { "smoke" })
     public void insert() {
         try {
             Thread.sleep(600);
@@ -25,7 +25,7 @@ public class depends {
         System.out.println("inserting demo data");
     }
 
-    @Test(dependsOnMethods="insert")
+    @Test(dependsOnGroups="smoke")
     public void select() {
         System.out.println("selecting demo data");
     }

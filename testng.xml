@@ -3,6 +3,11 @@
 
 <suite name="LearningSuite" parallel="false" preserve-order="false" verbose="1" thread-count="1" >
     <test name="Smoke">
+        <groups>
+            <run>
+                <include name="smokeTest" />
+            </run>
+        </groups>
         <classes>
 <!--            <class name="package1.TestngLearning"/>-->
             <class name="package1.parallel"></class>
