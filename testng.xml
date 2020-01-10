@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="LearningSuite" parallel="false" preserve-order="false" verbose="1" thread-count="1" >
-    <test name="Smoke">
-        <groups>
-            <run>
-                <include name="smokeTest" />
-            </run>
-        </groups>
+<suite name="Diasparklearning" parallel="false" preserve-order="false" verbose="1" thread-count="1" >
+    <test>
         <classes>
-<!--            <class name="package1.TestngLearning"/>-->
-            <class name="package1.parallel"></class>
-<!--            <class name="package2.depends"/>-->
+            <class name="com.dias.demoproj.Setup"/>
         </classes>
     </test>
 </suite>
